@@ -5,9 +5,7 @@ using namespace std;
 
 int main()
 {
-
 	PCREDENTIALW * credBuf = NULL;
-
 	DWORD count;
 
 	int result = ExtractZipPassFromCredMan(&credBuf, &count);
