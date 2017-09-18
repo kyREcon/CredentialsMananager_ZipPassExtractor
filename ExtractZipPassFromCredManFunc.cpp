@@ -2,7 +2,6 @@
 
 int ExtractZipPassFromCredMan(PCREDENTIALW ** credBuf, DWORD  * count)
 {
-
 	CredEnumerate(L"*.zip", 0, count, credBuf);
 
 	if (!credBuf)
@@ -12,5 +11,4 @@ int ExtractZipPassFromCredMan(PCREDENTIALW ** credBuf, DWORD  * count)
 		return ZIP_PASS_NOT_FOUND;
 
 	return ZIP_PASS_EXTRACTED;
-
 }
