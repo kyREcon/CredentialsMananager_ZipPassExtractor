@@ -16,17 +16,17 @@ take advantage of this to compromise further that host and/or other hosts in the
 Some more information, and a more simplified version of this can be found here:
 http://www.anti-reversing.com/credentials-manager-zip-passwords-caching-win8-x10/
 
-　
+
 Disclaimer
 ----------
 I wrote this for fun to use in other private projects. Use at your own risk.
 
-　
+
 Author
 ------
 Author: Kyriakos Economou (@kyREcon) / www.anti-reversing.com
 
-　
+
 MIT License
 -----------
 
